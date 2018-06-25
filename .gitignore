@@ -24,4 +24,3 @@ yarn-error.log*
 weatherKey.js
 stripe.js
 firebase.js
-src/**/*.css
