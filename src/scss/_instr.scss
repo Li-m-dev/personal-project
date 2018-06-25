@@ -10,10 +10,12 @@
   .instr_bio {
     width: 60%;
     // padding-right: 15px;
+    white-space: pre-wrap;
     padding-left: 15px;
     line-height: 29px;
     font-size: 25px;
     font-weight: 500;
+    text-align: left;
     p {
       margin-top: 20px;
       font-size: 18px;
