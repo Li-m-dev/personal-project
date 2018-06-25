@@ -1,0 +1,38 @@
+@mixin link-pics {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+@mixin img-filter() {
+  -webkit-filter: grayscale(80%);
+  -ms-filter: grayscale(80%);
+  filter: grayscale(80%);
+}
+
+// @mixin button-bg($bg) {
+//   background: $bg;
+//   &:hover {
+//     background: lighten($bg, 10%);
+//   }
+//   &:active {
+//     background: lighten($bg, 70%);
+//   }
+// }
+@mixin user-btn {
+  display: inline-block;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+  background: #000000;
+}
+
+@mixin admin-btn {
+  display: inline-block;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+  background: #777474;
+}

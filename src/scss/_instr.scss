@@ -1,0 +1,53 @@
+.instr {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+
+  .instr_pic {
+    margin-right: 25px;
+    @include profile-pic();
+  }
+  .instr_bio {
+    width: 60%;
+    // padding-right: 15px;
+    padding-left: 15px;
+    line-height: 29px;
+    font-size: 25px;
+    font-weight: 500;
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 200;
+    }
+  }
+}
+.instr_page {
+  // min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+// home page links share this css setting
+.back_links {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  .img_container {
+    position: relative;
+    text-align: center;
+    img {
+      @include link-pics();
+      @include img-filter();
+    }
+    .text_in_img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      color: white;
+    }
+  }
+}

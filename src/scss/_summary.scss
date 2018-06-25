@@ -1,0 +1,27 @@
+.summary_container {
+  padding-top: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.stripe-button-el:hover {
+  background: #797979;
+}
+.stripe-button-el:active {
+  background: #000;
+}
+// button.stripe-button-el,
+// button.stripe-button-el > span {
+//   background-color: #eb649c !important;
+//   background-image: none;
+// }

@@ -1,0 +1,92 @@
+.price_container {
+  padding-top: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price_list {
+  position: relative;
+  display: flex;
+  height: 25vh;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 70vw;
+  //   border: 2px solid black;
+  .price_img {
+    @include img-filter();
+    height: 100%;
+    width: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right: 20px;
+    // border: 1px solid blue;
+    // border-radius: 100%;
+  }
+  .price_detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    position: relative;
+    // border: 2px solid green;
+    h3 {
+      text-align: left;
+      padding-bottom: 20px;
+    }
+    .price_row {
+      display: flex;
+      justify-content: space-between;
+      margin: 2px 0;
+      align-items: center;
+    }
+  }
+}
+
+.pb {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  align-items: center;
+}
+.buy_btn {
+  @include user-btn;
+}
+
+// @media (min-width: 1200px) {
+//   .price_container {
+//     width: 1170px;
+//   }
+// }
+@media (max-width: 800px) {
+  .price_container {
+    height: 100%;
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    .price_list {
+      display: block;
+      // flex-direction: column;
+      margin-bottom: 60px;
+      height: max-content;
+      text-align: left;
+
+      .price_img {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.pb {
+  width: 100px;
+}

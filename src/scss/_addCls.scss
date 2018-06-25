@@ -1,0 +1,35 @@
+.addCls_page {
+  padding-top: 100px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  //   align-items: center;
+}
+.addCls_form {
+  margin-top: 40px;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .addCls_row {
+    padding: 20px 0;
+    input {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #000000;
+      width: 200px;
+    }
+    select {
+      background-color: white;
+      border: thin solid black;
+      border-radius: 4px;
+      display: inline-block;
+      font: inherit;
+      line-height: 1.5em;
+      padding: 0.5em 3.5em 0.5em 1em;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.home-container {
+  box-sizing: border-box;
+  position: absolute;
+  top: 95px;
+  width: 100%;
+  height: auto;
+  width: 100%;
+  color: #333;
+  background: white;
+  .home_img {
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .home_about {
+    text-align: center;
+    margin: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    .home_about__title {
+      margin: 20px 0;
+      font-size: 1.1em;
+      font-weight: 800;
+    }
+  }
+  .back_links {
+    // display: grid;
+    // grid: auto-flow / repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,15 @@
+.schedule_page {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+  .calendar {
+    width: 90%;
+    // justify-content: center;
+    // align-items: center;
+    // display: flex;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+}

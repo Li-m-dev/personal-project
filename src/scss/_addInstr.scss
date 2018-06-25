@@ -1,0 +1,20 @@
+.addInstr_page {
+  padding: 40px 20px;
+  input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 200px;
+  }
+}
+.addInstr_form {
+  margin-top: 40px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  textarea {
+    height: 200px;
+    width: 60vw;
+  }
+}

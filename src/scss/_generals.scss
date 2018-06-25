@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+$bg-color: #fff;
+// $hover-color: #16a085;
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/devmnt-personal-project.appspot.com/o/images%2Ffog-foggy-forest-40726.jpg?alt=media&token=47ab890b-45bc-44ed-88ca-1652f841942c");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: "lato";
+  .App {
+    /* margin: 0; */
+    width: 100vw;
+    text-align: center;
+    .main-header {
+      background-color: $bg-color;
+      z-index: 10;
+      // opacity: 0.8;
+    }
+    .trans-box {
+      background-color: $bg-color;
+      opacity: 0.2;
+      height: 30vh;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .main-body {
+      background-color: white;
+      min-height: 100vh;
+    }
+    footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 20px;
+      background-color: grey;
+      color: white;
+      text-align: center;
+      z-index: 10;
+    }
+  }
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.page_title {
+  position: absolute;
+  top: 225px;
+  left: 15vw;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.add_btn {
+  position: fixed;
+  right: 30px;
+  bottom: 70px;
+  z-index: 10;
+  opacity: 0.7;
+}
+
+::selection {
+  background: rgb(140, 248, 239);
+}
